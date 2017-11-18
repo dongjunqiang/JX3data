@@ -1,0 +1,161 @@
+/**************************内容***********************/
+.content .main_cont article {
+    width: 325px;
+    height: 435px;
+    float: left;
+}
+
+.content .main_cont article .inner {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff;
+    color: #606163;
+    z-index: 2;
+    position: relative;
+}
+
+.content .main_cont article .inner:hover {
+    z-index: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .35);
+    transition: box-shadow .3s;
+}
+
+.content .main_cont article img {
+    width: 300px;
+    height: 250px;
+
+}
+
+.content .main_cont article .inner .img_pic .img_tag {
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+}
+
+.content .main_cont article .inner .img_pic .deepskyblue {
+    background-color: deepskyblue;
+}
+
+.content .main_cont article .inner .img_pic .skyblue {
+    background-color: skyblue;
+}
+
+.content .main_cont article .inner .img_pic .orange {
+    background-color: orange;
+}
+
+.content .main_cont article .inner .img_pic .pink {
+    background-color: pink;
+}
+
+.content .main_cont article .text_con {
+    padding: 10px 10px 0 10px;
+}
+
+.content .main_cont article .text_con .art_title {
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.content .main_cont article .text_con .art_title a {
+    color: black;
+}
+
+.content .main_cont article .text_con .art_title a:hover {
+    color: deepskyblue;
+}
+
+.content .main_cont article .text_con .desc p {
+    font-size: 13px;
+    text-indent: 2em;
+    height: 38px;
+    overflow: hidden;
+}
+
+.content .main_cont article .text_con .desc .desc_foot {
+    width: 280px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content .main_cont article .text_con .desc .desc_foot em {
+    display: inline-block;
+}
+
+.content .main_cont article .text_con .desc .desc_foot .desc_date {
+    margin: 0 0 5px 5px;
+}
+
+.content .main_cont article .text_con .desc .desc_foot .desc_desc {
+    margin: 0 10px 5px 0;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot');
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icon/iconfont.woff') format('woff'),
+    url('../icon/iconfont.ttf') format('truetype'),
+    url('../icon/iconfont.svg#iconfont') format('svg');
+}
+
+.content .main_cont article .text_con .desc .desc_foot .desc_desc .iconfont {
+    font-family: "iconfont", cursive !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content .main_cont article .text_con .desc .desc_foot .desc_desc em {
+    margin: 0 3px 0 -2px;
+}
+
+/*翻页*/
+.content .main_cont .change_page {
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+
+.content .main_cont .change_page ul {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.content .main_cont .change_page ul li {
+    display: inline-block;
+    float: left;
+    margin-left: -1px;
+
+}
+
+.content .main_cont .change_page ul li a {
+    display: block;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    color: #9d9d9d;
+    border: 1px solid #e6e6e6;
+}
+
+.content .main_cont .change_page ul li a:hover {
+    background-color: #2ABFFF;
+    color: #fff;
+    border: 1px solid #2ABFFF;
+}
+
+

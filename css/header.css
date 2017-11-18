@@ -1,0 +1,58 @@
+/*导航栏*/
+header {
+    height: 60px;
+    background-color: #ffffff;
+}
+
+header nav {
+    margin: 0 auto;
+    line-height: 60px;
+    height: 60px;
+}
+
+header nav strong {
+    display: block;
+    float: left;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    float: left;
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px 0 10px;
+}
+
+header nav ul .title_current a {
+    color: #2ABFFF;
+}
+
+header nav label {
+    float: right;
+    width: 305px;
+    min-width: 240px;
+}
+
+header nav label .search {
+    height: 30px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    border-right: 0;
+    vertical-align: middle;
+}
+
+header nav form label .se_btn {
+    height: 30px;
+    width: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    margin-left: -5px;
+    cursor: pointer;
+}

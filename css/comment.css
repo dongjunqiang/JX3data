@@ -1,0 +1,56 @@
+body, ul, li, a, span, input, header, nav, aside, article, footer, strong, img, em, i, p, h1, h2, h3, h4, h5, h6, div {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    color: #2ABFFF;
+}
+
+body {
+    background-color: #F8F8F8;
+
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*清除浮动*/
+.clearFix {
+    *zoom: 1;
+}
+
+.clearFix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.go_top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none;
+    opacity: 0.4;
+}
+
+.go_top img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
