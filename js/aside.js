@@ -16,7 +16,7 @@ var hotLis = hotTag.getElementsByTagName('li');
         }
     }
 })();
-//登陆注册切换
+//页面切换
 var userBox = id$('user_lsbox');//登录注册界面
 var userLtag = id$('userl_tag');//登录注册标签
 var userLbox = userBox.getElementsByClassName('user_lbox');
